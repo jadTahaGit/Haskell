@@ -1,0 +1,24 @@
+
+a)   f x = if f x == f x then f x  else f x  > f x
+f :: t -> Bool
+
+
+b)  f x = if f(x) == f(x) then f(x) else (f x + 1) > (f x + 2)
+error man kann nicht Bool + Intger        
+
+
+c)  f x y z = if x > y then z else z + 1
+f :: (Ord a1, Num a2) => a1 -> a1 -> a2 -> a2
+       
+d)
+f 0 = 1
+f n = n * f (n - 1)
+f :: Num t => t -> t
+      
+e)  f x = [y | y <- x, y `mod` 2 == 0]}
+f :: Integral a => [a] -> [a]
+
+
+        
+f) f= (\x -> x == '3')
+f :: Char -> Bool

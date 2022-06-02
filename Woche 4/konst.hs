@@ -1,0 +1,4 @@
+-- q= \x_-> x*x
+-- q (q 2)
+-- let y = q 2 in q y
+-- q y

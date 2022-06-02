@@ -1,0 +1,2 @@
+-- (<*>) :: Applicative f => f (a->b) -> f a -> f break
+-- ff <*> fw = ff >>= \f -> fw >>=

@@ -1,0 +1,35 @@
+f = head . tail
+g = (\x -> 0)
+h  = (\x -> x * x * x)
+
+a)  g (h 0) -- applikative Auswertung
+g(h 0)
+g(0*0*0)
+g(0)
+0
+
+b)  g (h 0) -- normale Auswertung
+g(h 0)
+(\x -> 0)(h 0)
+                    (\x -> 0)((\x -> x*x*x) 0)  -- maybe weg
+                    (\x -> 0)(0)                -- maybe weg
+0
+
+
+
+c)  h (h 1) -- verzoegerte Auswertung
+(\x -> x * x * x) (h 1)
+(\x -> x * x * x) ((\x -> x * x * x) 1)
+((\x -> x * x * x) 1) * ((\x -> x * x * x) 1) * ((\x -> x * x * x) 1) 
+(1*1*1) * (1*1*1) * (1*1*1)
+1*1*1
+1
+
+
+
+
+d) f [1,2,3] -- verzögerte Auswertung
+f [1,2,3]
+head . tail [1,2,3]
+head . [2,3]
+2

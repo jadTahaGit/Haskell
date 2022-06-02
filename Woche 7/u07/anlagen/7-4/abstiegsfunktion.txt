@@ -1,0 +1,11 @@
+-- Geltungsbereich:
+Durch Aufgabenstellung gegeben, A = [a] (Menge aller endl. Listen)
+
+
+Abstiegsfunktion:
+
+a(xs) = length' (xs)
+
+Es gilt beim Aufruf von length(x:xs) mit einer nicht leere Liste kommt es immer zum Rekursiven Aufruf
+length(xs), es wird immer exact ein Element entfernt.
+Fuer die Abstiegsfunktion gilt somit a(x:xs) > a(xs)

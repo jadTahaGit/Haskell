@@ -1,0 +1,32 @@
+#####################################################################################
+############################ Klassen Constraint #####################################
+#####################################################################################
+
+(==) :: Eq a => a -> a -> Bool
+Steht a fuer ein Typ der Typklasse Eq, so gibt es eine Funktion (==) vom Typ a -> a -> Bool
+
+(>) :: Ord a => a -> a-> Bool
+Steht a fuer ein Typ der Typklasse Ord, so gibt es eine Funktion (>) vom Typ a -> a -> Bool
+
+Links von => Steht ein KlassenConstraint ueber eine oder mehrere Typ-Variablen vorkommen.
+
+#####################################################################################
+####################### Grundlegende Typklassen #####################################
+#####################################################################################
+
+Eq == /= 
+Ord < > <= >= compare 
+Nur Typen in Eq koennen Typen in Ord sein
+
+Show show
+Die Werte eine Typs der Typklasse Show haben eine String-Darstellung
+
+#############################
+######### In GHCI: ##########
+#############################
+:t 2                                                                                                                                                           ,34.6,34.6,25]
+2 :: Num p => p
+2 :: Double
+2 :: Int 
+2 :: Integer
+

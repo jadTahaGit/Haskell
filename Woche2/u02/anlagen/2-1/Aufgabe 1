@@ -1,0 +1,19 @@
+Aufgabe 2-1
+Ausdrücke und Typen
+Werten Sie folgende Ausdrücke aus und bestimmen Sie deren Typen (zuerst im Kopf, dann
+mit ghci kontrollieren!). Einen Überblick über eingebaute Typen und Funktionen in Haskell
+finden Sie unter anderem auf
+• https://www.haskell.org/onlinereport/haskell2010/haskellch6.html
+• https://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude.html
+• https://hoogle.haskell.org/?scope=package%3Abase
+a) compare 2 3
+b) 13 ` mod ` 4
+c) (-) 7 4
+d) odd 3
+e) even 3
+f) drop 3 [1, 2, 3, 4, 5]
+g) elem 3 [1, 2, 3, 4, 5]
+h) sum [1, 2, 3, 4, 5]
+i) reverse "Lag er im Kajak, mir egal"
+j) words "Lag er im Kajak, mir egal"
+k) unlines ["Lag", "er", "im", "Kajak,", "mir", "egal"]

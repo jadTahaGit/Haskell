@@ -1,0 +1,3 @@
+import Criterion
+
+main = defaultMain

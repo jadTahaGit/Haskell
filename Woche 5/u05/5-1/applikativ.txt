@@ -1,0 +1,29 @@
+
+-- 5-1 Auswertung mit applikativen Auswertungsreihenfolge --
+
+f 3 
+(if nullj (quadrat 3) /= 3 then summe_quadrate (3-2) (3-1) else 3) 
+(if nullj (3*3) /= 3 then summe_quadrate (3-2) (3-1) else 3) 
+(if nullj (9) /= 3 then summe_quadrate (3-2) (3-1) else 3) 
+(if 0/=3 then summe_quadrate (3-2) (3-1) else 3) 
+(if True then summe_quadrate (3-2) (3-1) else 3)
+summe_quadrate (3-2) (3-1)
+summe_quadrate (3-2) (2)
+summe_quadrate (1) (2)
+quadrate (1) + quadrate (2)
+quadrate (1) + 2*2
+quadrate (1) + 4
+1*1 + 4
+1 + 4
+5
+
+
+
+
+
+
+
+
+
+
+

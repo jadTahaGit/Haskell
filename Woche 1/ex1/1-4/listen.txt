@@ -1,0 +1,35 @@
+--a-- Wert:    [1,2,3,4,9,10,11,12]             
+      Typ:     Num a => [a]
+
+--b-- Wert:    True             
+      Typ:     Bool
+
+--c-- Wert:     False            
+      Typ:      Bool
+      
+--d-- Wert:     False            
+      Typ:      Bool
+
+--e-- Wert:       5        
+      Typ:        Int
+
+--f-- Wert:       *** Exception: Prelude.head: empty list          
+      Typ:        a
+
+--g-- Wert:      Num a => [a]             
+      Typ:       [3,4]
+
+--h-- Wert:       "H-Milch"     
+      Typ:        [Char]
+
+--i-- Wert:       's'          
+      Typ:        Char
+
+--j-- Funktion:   kopf liste = [liste !! 0 ]              
+      Typ:        kopf :: [a] -> [a] 
+
+--k-- Wert:       ende liste = [liste !! ((length liste)-1)]              
+      Typ:        ende :: [a] -> [a]
+
+--l-- Wert:                     
+      Typ:        rest :: [a] -> [a]          

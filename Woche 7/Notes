@@ -1,0 +1,13 @@
+In funktionale Programmiersprachen sind Funktionen Werte, die wie andere Werte auch Parameter oder Ergebnisse von Funktionsanwendungen
+sein können.
+
+Eine Funktion höherer Ordnung ist eine Funktion, die:
+eine Funktion als Parameter hat,
+und/oder eine Funktion als Wert zurückgibt.
+
+
+Ordnung 0:  Konstanten wie 1, b und []
+Ordnung 1:  Funktionen, deren Parameter und Werte der Ordnung 0 sind.
+Hoehere Ordnung: Alle weiteren Funktionen
+
+

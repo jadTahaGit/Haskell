@@ -1,0 +1,42 @@
+Aufgabe 2-3
+List-Comprehension
+In den folgenden Unteraufgaben sollen Sie Funktionen mit der Hilfe von List-Comprehensions
+definieren. Dabei dürfen nur die selbstgeschriebenen Funktionen aus Aufgabe 2-2 und die
+folgenden vordefinierten Funktionen verwendet werden: +, -, *, /, ==, /=, sum, mod,
+elem, putStrLn, maximum und die Funktionen aus Aufgabe 2-2 verwendet werden.
+Anmerkung: Ziel dieser Aufgabe ist das Einüben von List-Comprehensions, nicht das Erstellen
+möglichst effizienter Programme.
+a) Definieren Sie eine Funktion, die alle ungeraden Elemente einer Liste (von Zahlen) aus-
+gibt.
+b) Definieren Sie eine Funktion, die zu einer Liste (von Zahlen) alle ihrer geraden Zahlen
+und das Zweifache ihrer ungeraden Zahlen ausgibt. Beispiel: [1,4,7,8]
+liefert die Liste [2,4,14,8]
+c) Definieren Sie eine Funktion, die für alle natürlichen Zahlen im Bereich zwischen zwei
+Zahlen (einschließlich dieser) eine Liste jener Zahlen zurückgibt, bei denen die Division
+durch 7 Rest 5 ergibt. Es darf vorausgesetzt werden, dass der erste Parameter immer
+kleiner als der zweite ist.
+Beispiel:
+div7Rest5 7 28
+ergibt
+[12,19,26]
+d) Definieren Sie eine Funktion, welche die Länge einer Liste berechnet, ohne die vordefi-
+nierte Funktion length zu benutzen.
+e) Definieren Sie ein Funktion ’dreifach’, die einen Integer Wert als Eingabe erhält und
+dessen dreifachen Wert zurück gibt (siehe Übungsblatt 1 Aufgabe 2a ).
+f) Definieren Sie ein Funktion nurGrossBuchstaben
+buchstaben eines Strings ausgibt.
+:: [Char] -> [Char] ,
+die nur die Groß-
+Definieren Sie eine zweite Funktion, putStrLnNurGrossBuchstaben :: [Char] -> IO () ,
+die die Funktion nurGrossBuchstaben und deren Ergebnis auf die Konsole ausgibt. Be-
+nutzen Sie hierfür den “.” Operator.
+g) Definieren Sie eine Funktion, welche die Faktorzerlegung einer natürlichen Zahl als Liste
+zurückgibt.
+Beispiel: faktoren 20 liefert die Liste [ 2,4,5,10 ] .
+h) Definieren Sie eine Funktion, welche den größten gemeinsamen Teiler zweier natürlicher
+Zahlen als Liste zurückgibt. Benutzen Sie die Funktion faktoren aus der vorherigen
+Aufgabe.
+i) Pythagoreische Tripel: Definieren Sie ein Funktion, welche einen Integer Wert n als
+Eingabe erhält und eine Liste mit allen Trippeln (a, b, c) mit a, b, c ≤ n zurück gibt,
+die den Satz des Pythagoras erfüllen: a 2 + b 2 = c 2
+Beispiel: pytri 10 liefert eine Liste mit den Elementen (3,4,5) und (6,8,10) zurück.

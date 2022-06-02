@@ -1,0 +1,32 @@
+a)  let a = [1, 2, 3]
+a - Wert: [1,2,3]
+a - type: Num a => [a]
+
+
+b)  let b = "ab" ++ ['c', 'd']
+b-Wert: "abcd"
+b-type: [Char]
+
+
+c)  let c = [1, 2.0, 3]
+c-Wert:     [1.0,2.0,3.0]
+c-type:     c :: Fractional a => [a]
+
+
+d)  let d = (False && not True) || (not False && True)
+d-Wert:     True
+d-type:     d :: Bool
+
+
+e)  let e = [("a", 1), ("b", 2)]
+[("a", 1), ("b", 2)]
+e :: Num b => [(String, b)]
+
+
+f)  let f = [1, 2, [3, 4, [5]]]
+error
+
+
+g)  let g = [[[1], [2]], [], [[3], [4]]]
+[[[1],[2]],[],[[3],[4]]]
+g :: Num a => [[[a]]]

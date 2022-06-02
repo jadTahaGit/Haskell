@@ -1,0 +1,12 @@
+Aufgabe 2-2
+Funktionen
+a) Schreiben Sie eine Funktion alleGleich
+ob drei Integer-Zahlen gleich sind.
+:: Eq a => a -> a -> a -> Bool ,
+die überprüft,
+b) Schreiben Sie eine Funktion ungerade :: Integral a => a -> Bool , die überprüft, ob
+eine Integer Zahl ungerade ist. Verwenden Sie hierzu nicht die vordefinierten Funktionen
+even oder odd .
+c) Schreiben Sie eine Funktion gerade :: Integral a => a -> Bool , die überprüft, ob eine
+Integer Zahl gerade ist. Verwenden Sie hierzu nicht die vordefinierten Funktionen odd
+oder even .

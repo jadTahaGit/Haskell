@@ -1,0 +1,20 @@
+main :: IO()
+main = do 
+    putStrLn "Hello World"  -- putStrLn && Show
+    --show 9
+    --print 9
+
+
+-- --print
+-- print "Hello World 2"
+-- print 12
+
+
+-- let myprint1 x = putStrLn(show x)
+-- myprint1 "Hello World"
+-- myprint1 2000 
+
+
+-- let myprint2 = putStrLn . show 
+-- myprint2 "Hello World"
+-- myprint2 2000 

@@ -1,0 +1,3 @@
+-- (print "Wie heisst du?") >>
+-- getLine >>=
+-- (\name -> print("Hello" ++ name ++ "!"))

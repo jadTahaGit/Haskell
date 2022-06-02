@@ -1,0 +1,11 @@
+zeichenfolge <- getLine
+
+
+:{
+ let iotest = do z <- getLine  
+                 print("Ok" ++ z)
+:}
+iotest
+
+
+let b = do {c <- getLine; print c}
